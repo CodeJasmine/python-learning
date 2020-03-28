@@ -1,3 +1,7 @@
+"""
+    输入行数，输出以行数为基础的三角形
+"""
+
 row = int(input('请输入行数：'))
 for i in range(row):
     for _ in range(i + 1):
