@@ -24,5 +24,9 @@
 #### ImageVerification:判断传入的文件名是否为图片类型的文件
 #### VerificationCode:设定一个函数，产生指定长度的验证码，验证码由大小写字母和数字构成
 
+### day6
+#### HorseRaceLamp:在屏幕上显示跑马灯文字
+#### YangHuiTriangle:打印杨辉三角
+
 ### demo
 #### Addition：加法测试，随机产生两个一位数的整数，然后使其相加，测试输入答案后是否正确，如果错误，提示报错并返回正确答案
