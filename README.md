@@ -35,5 +35,9 @@
 #### ListDefinitionAndTraversal：列表的定义和遍历
 #### ListElementsAddingAndRemoving：列表元素添加和删除
 
+### day9
+#### ListPictures:列表排序
+#### ListSlice:列表切片
+
 ### demo
 #### Addition：加法测试，随机产生两个一位数的整数，然后使其相加，测试输入答案后是否正确，如果错误，提示报错并返回正确答案
