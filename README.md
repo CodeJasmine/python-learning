@@ -42,5 +42,11 @@
 ### day10
 #### IntegratedOperation:集合综合操作
 
+### day11
+#### NewsDataInterface:新闻数据接口
+
+### day12
+#### ZhihuColumnFanDataCrawling:爬取知乎专栏粉丝数据(113182条)
+
 ### demo
 #### Addition：加法测试，随机产生两个一位数的整数，然后使其相加，测试输入答案后是否正确，如果错误，提示报错并返回正确答案
