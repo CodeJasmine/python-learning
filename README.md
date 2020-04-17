@@ -66,5 +66,10 @@
 ### day23
 #### data:date练习
 
+### day24
+#### BasicWordCloud:基础词云练习
+#### ExternalTextWordCloud:外部文本词云练习
+#### ParticipleWordCloud:词云制作库wordcloud和中文分词库jieba的练习
+
 ### demo
 #### Addition：加法测试，随机产生两个一位数的整数，然后使其相加，测试输入答案后是否正确，如果错误，提示报错并返回正确答案
