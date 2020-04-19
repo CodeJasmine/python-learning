@@ -75,5 +75,9 @@
 #### Excel:excel操作
 #### ExcelDemo:把班级卡片数据excel表读入，循环遍历所有数据，每行对应一个字典对象，将sheet转成一个list里套字典的，顺便将整个内容生成个词云图。
 
+### day26
+#### ExcelBasicWriting:excel基础写操作
+#### ExcelFormatWriting:excel格式化写操作
+
 ### demo
 #### Addition：加法测试，随机产生两个一位数的整数，然后使其相加，测试输入答案后是否正确，如果错误，提示报错并返回正确答案
