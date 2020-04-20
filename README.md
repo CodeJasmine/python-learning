@@ -79,5 +79,8 @@
 #### ExcelBasicWriting:excel基础写操作
 #### ExcelFormatWriting:excel格式化写操作
 
+### day27
+#### SendMail:发送邮件
+
 ### demo
 #### Addition：加法测试，随机产生两个一位数的整数，然后使其相加，测试输入答案后是否正确，如果错误，提示报错并返回正确答案
