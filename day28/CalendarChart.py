@@ -1,0 +1,29 @@
+"""
+日历图
+"""
+
+import datetime
+import random
+from pyecharts import options as options
+from pyecharts.charts import Calendar
+
+
+def calendar_draw() -> Calendar:
+    begin = datetime.date(2019, 1, 1)
+    end = datetime.date(2019, 12, 27)
+    data = [[str(begin + datetime.timedelta(days=i)),
+             random.randint(1000, 25000)]
+            for i in range(0, (end - begin).days + 1, 2)
+            ]
+    # 隔天统计
+    calendar = (Calendar(init_opts=options.InitOpts(width="1200px"))
+                .add("", data, calendar_opts=options.CalendarOpts(range_="2019"))
+                .set_global_opts(title_opts=options.TitleOpts(title="Calendar-2019 年步数统计"),
+                                 visualmap_opts=options.VisualMapOpts(max_=25000, min_=1000,
+                                                                      orient="horizontal", is_piecewise=True, pos_top="230px", pos_left="100px",),
+                                 )
+                )
+    return calendar
+
+
+calendar_draw().render('./res/html/calendar.html')
