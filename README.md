@@ -117,5 +117,10 @@
 ### day38
 ####  TwoMajorFeaturesAndFourBasicGrammars:两大特性：动态、强类型 四大基本语法：命名规则、缩进规则、特殊关键字、特殊运算符
 
+### day39
+#### CustomType:自定义类型
+#### NumericAndContainer:数值型和容器型
+#### String:字符串
+
 ### demo
 #### Addition：加法测试，随机产生两个一位数的整数，然后使其相加，测试输入答案后是否正确，如果错误，提示报错并返回正确答案
