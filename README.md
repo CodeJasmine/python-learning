@@ -129,5 +129,10 @@
 ### day41
 #### ListAndTuple:list 和 tuple 的 13 个经典使用案例
 
+### day42
+####  DictionaryBasicOperations:字典基本操作
+#### DictionaryCreationMethod:字典创建方法
+#### SetOperation:集合基本操作
+
 ### demo
 #### Addition：加法测试，随机产生两个一位数的整数，然后使其相加，测试输入答案后是否正确，如果错误，提示报错并返回正确答案
