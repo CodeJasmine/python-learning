@@ -134,5 +134,8 @@
 #### DictionaryCreationMethod:字典创建方法
 #### SetOperation:集合基本操作
 
+### day43
+#### DictAndSet:dict 和 set 的 15 个经典使用例子
+
 ### demo
 #### Addition：加法测试，随机产生两个一位数的整数，然后使其相加，测试输入答案后是否正确，如果错误，提示报错并返回正确答案
