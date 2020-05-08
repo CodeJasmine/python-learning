@@ -141,5 +141,10 @@
 #### Computation:数学运算
 #### LogicOperationAndHexadecimalConversion:逻辑运算和进制转换
 
+### day45
+#### BatchCompressFiles:批量压缩文件
+#### BatchModifyArticleSuffix:传递当前目录，批量修改文章后缀
+#### ReadFileByLine:按行读文件
+
 ### demo
 #### Addition：加法测试，随机产生两个一位数的整数，然后使其相加，测试输入答案后是否正确，如果错误，提示报错并返回正确答案
