@@ -155,5 +155,8 @@
 ### day48
 #### ListGenerationEfficientCase:列表生成式高效案例-1
 
+### day49
+#### ListGenerationEfficientCase:列表生成式高效案例-2
+
 ### demo
 #### Addition：加法测试，随机产生两个一位数的整数，然后使其相加，测试输入答案后是否正确，如果错误，提示报错并返回正确答案
