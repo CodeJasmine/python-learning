@@ -167,5 +167,8 @@
 ### day52
 #### Multithreading:多线程2
 
+### day53
+#### ThreadPoolExecutor:使用 ThreadPoolExecutor像线程池进行任务提交者更方便的从被调用函数中获取返回值
+
 ### demo
 #### Addition：加法测试，随机产生两个一位数的整数，然后使其相加，测试输入答案后是否正确，如果错误，提示报错并返回正确答案
