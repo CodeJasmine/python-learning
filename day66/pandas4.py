@@ -10,16 +10,16 @@ df1 = pd.DataFrame([['Tom', 74.0, '2020-05-01'],
                    columns=['name', 'score', 'date'])
 print(df1)
 # 也可以通过字典
-df2 = pd.DataFrame({'name': ['zhang', 'xi'], 'score': [87, 98],
+df2 = pd.DataFrame({'name': ['shen', 'xi'], 'score': [87, 98],
                     'date': ['2020-05-01', '2020-06-01']}, index=['x', 'y'])
 print(df2)
 # DataFrame增加数据
 df2 = df2.append(pd.Series(
-    data=['wang', 93, '2020-02-01'], index=['name', 'score', 'date'], name='z'
+    data=['wang', 93, '2020-02-01'], index=['name', 'score', 'date'], name='x'
 ))
 print(df2)
 # DataFrame 删除数据，使用drop删除指定索引或标签，删除副本
-df2 = df2.drop('z')
+df2 = df2.drop('x')
 print(df2)
 # DataFrame 修改数据，先根据索引或标签定位到行列再修改
 df1.loc['a', 'name'] = 'new name'
